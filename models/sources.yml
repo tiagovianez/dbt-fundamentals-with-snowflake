@@ -7,6 +7,15 @@ sources:
       schema: jaffle_shop
       tables:
           - name: customers
-            description: One record per customer.
+            description: raw customers data
+            columns:
+              - name: id
+                description: Primary key for customers.
           - name: orders
-            description: One record per order. Includes cancelled and deleted orders.
+            description: raw orders data
+            columns:
+              - name: id
+                description: Primary key for orders.
+                tests:
+                  - unique
+                  - not_null
