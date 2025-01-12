@@ -10,6 +10,12 @@ sources:
             description: raw customers data
             columns:
               - name: id
-                description: primary key for customers data
+                description: Primary key for customers.
           - name: orders
             description: raw orders data
+            columns:
+              - name: id
+                description: Primary key for orders.
+                tests:
+                  - unique
+                  - not_null
