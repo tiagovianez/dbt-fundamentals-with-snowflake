@@ -1,4 +1,4 @@
-# **dbt Fundamentals Course**
+# **dbt Fundamentals course with Snowflake database integration**
 
 ## **Overview**
 Welcome to the **dbt Fundamentals Course**! This course is designed to provide you with the foundational knowledge and skills needed to effectively use **dbt (Data Build Tool)**. Whether you're a data analyst, engineer, or just someone curious about modern data workflows, this course equips you with hands-on experience to transform raw data into actionable insights.
