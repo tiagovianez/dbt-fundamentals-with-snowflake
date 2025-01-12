@@ -35,7 +35,7 @@ By the end of the course, you'll have the confidence to:
 ### 5. **Documenting and Lineage**
 - Writing descriptions for models, sources, and columns in `schema.yml`.
 - Visualizing data lineage with dbt's DAG (Directed Acyclic Graph).
-- Generating and serving documentation with `dbt docs generate` and `dbt docs serve`.
+- Generating and serving documentation with `dbt docs generate` and `dbt docs serve` .
 
 ### 6. **Source Freshness**
 - Defining and testing source freshness in `sources.yml`.
